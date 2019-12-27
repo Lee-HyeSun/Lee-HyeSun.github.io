@@ -1,17 +1,30 @@
-# Jekyll Modern Blog
+# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
+  
+## `Sorry guys but there will be no update until I buy a new laptop.`
+    
+######(If you like this theme or using it, please give a :star: for motivation.)
 
-A Simple, Clean and responsive modern blog for jekyll.
+**[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
 
-## [Live Demo](http://inded.github.io/Jekyll_modern-blog/)
+## Features
+* Minimal, you can focus on your content
+* Responsive
+* Disqus integration
+* Syntax highlighting
+* Optional post image
+* Social icons
+* Page for sharing projects
+* Optional background image
+* Simple navigation menu
+* MathJax support
 
-## Attributions
-Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
-Using Sample images from [Fancy Crave](http://fancycrave.com/)
+## Preview
 
-## License
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
+![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
 
-Based off of this [Article on Codrops](http://tympanus.net/codrops/?p=24222)
+See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHub.
 
-Created by Claudio Calautti for Codrops. Released under the [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html).
+## Getting Started
 
-Changes being that I made it jekyll ready and smushed the CSS together.
+To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.
