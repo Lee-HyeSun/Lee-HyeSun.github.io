@@ -1,40 +1,28 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+title: Hello World!!!
+description: Hello JAVA
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: rouge
+url: http://lee-HyeSun.github.io
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
 markdown: kramdown
-disqus:
-google_analytics:
-title: Hello World
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: Hello World
+navigation:
+  - title: Home
+    url: /index.html
+  - title: Post
+    url: /post
+  - title: Contact
+    url: /contact
 
-description: Theme test
-author:
-  name: LEEHS
-  email:
+social:
   github:
   twitter:
-  pinterest:
-  linkedin:
-  bio:
-  email_md5:
+  facebook:
+  email:
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-# set it as url of an image
-# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
-
-BASE_PATH:
-
-plugins:
-  - jekyll-paginate
+google_analytics:
