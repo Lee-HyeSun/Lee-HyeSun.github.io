@@ -1,28 +1,40 @@
-title: Hello World!!!
-description: Hello JAVA
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-url: http://lee-HyeSun.github.io
-baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
-
-markdown: kramdown
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
 highlighter: rouge
-plugins: [jekyll-paginate]
-paginate: 5
+markdown: kramdown
+disqus: dbyll
+google_analytics: dbyll
+title: dbyll
 
-navigation:
-  - title: Home
-    url: /index.html
-  - title: Post
-    url: /post
-  - title: Contact
-    url: /contact
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
 
-social:
-  github:
-  twitter:
-  facebook:
-  email:
+description: Stylish Jekyll Theme
+author:
+  name: dbyll
+  email: dbyll@ismaildemirbilek.com
+  github: dbtek
+  twitter: dbtek
+  pinterest: asd123
+  linkedin: asd123
+  bio: Your stylish, minimalist theme!
+  email_md5: 726351295ec82e145928582f595aa3aa
 
-google_analytics:
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
