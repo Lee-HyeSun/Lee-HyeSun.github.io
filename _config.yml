@@ -1,34 +1,40 @@
-title: Hello World!
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-url: https://lee-hyesun.github.io/
-baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
-
-markdown: kramdown
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
 highlighter: rouge
-plugins: [jekyll-paginate]
-paginate: 5
+markdown: kramdown
+disqus:
+google_analytics:
+title: Hello World
 
-navigation:
-  - title: Home
-    url: /index.html
-  - title: Post
-    url: /post
-  - title: Contact
-    url: /contact
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Hello World
 
-social:
+description: Theme test
+author:
+  name: LEEHS
+  email:
   github:
   twitter:
-  facebook:
-  email:
+  pinterest:
+  linkedin:
+  bio:
+  email_md5:
 
-<<<<<<< HEAD
-google_analytics:
-=======
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
 
-theme: jekyll-theme-cayman
->>>>>>> 4abc3d04f8ebfd2f657776abf837ca33324519fc
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
